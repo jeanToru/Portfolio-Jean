@@ -1,0 +1,22 @@
+#gitHubTitle {
+  font-family: $primaryFont;
+  font-size: 36px;
+  margin-top: 22px;
+  padding: 22px;
+}
+
+.list {
+  color: black;
+  font-family: $primaryFont;
+  font-size: 24px;
+  list-style: none;
+  padding-bottom: 60px;
+}
+
+.linkApi  {
+  text-decoration: none;
+}
+
+.linkApi:hover {
+  color: $colorGray;
+}
