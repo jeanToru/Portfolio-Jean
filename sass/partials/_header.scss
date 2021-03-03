@@ -1,0 +1,41 @@
+#header {
+  background-color: black;
+}
+
+#logo img {
+  margin-top: 48px;
+    width: 14%;
+}
+
+
+#nav {
+	float: right;
+	position: relative;
+}
+
+#list {
+  list-style: none;
+  margin: -4.3% 0 0 0;
+  padding-bottom: 28px;
+}
+
+
+#list li {
+  float: left;
+}
+
+#list li + li {
+  margin-left: 84px;
+}
+
+#list a {
+  color: white;
+  font-family: $primaryFont;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+#list a:hover {
+  color: $colorHover;
+}
