@@ -1,5 +1,7 @@
 // URL de GitHub Api //
 const gitHubApi = 'https://api.github.com/users/jeanToru';
+const open = document.querySelector('.open');
+const alertContainer = document.getElementById('alert__Container');
 
 function doomCreate(info) {
   const list = document.querySelector('.list');
@@ -22,3 +24,18 @@ function createInfo() {
 }
 
 createInfo();
+
+open.addEventListener('click', () => {
+  alertContainer.innerHTML = `
+    <div class="alert">
+    <img src="img/check.png" alt="">
+    <h3>Datos enviados</h3>
+    <button class="send" id="close">ok</button>
+    </div>`;
+  alertContainer.classList.add('show');
+  const close = document.getElementById('close');
+
+  close.addEventListener('click', () => {
+    alertContainer.classList.remove('show');
+  });
+});
