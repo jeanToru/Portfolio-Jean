@@ -1,0 +1,20 @@
+body {
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 1130px;
+  margin: 0 auto;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.space-border {
+	padding: 2px;
+	border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}

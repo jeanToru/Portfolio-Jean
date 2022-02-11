@@ -1,0 +1,98 @@
+#sentence {
+  display: inline;
+  font-family: $primaryFont;
+  font-size: 48px;
+  float: left;
+  margin-top: 328px;
+  width: 442px;
+}
+
+#profile {
+  float: right;
+  margin-top: 329px;
+  width: 26%;
+  border-radius: 20px;
+}
+
+#profile2 {
+  float: left;
+  margin-top: 329px;
+  width: 26%;
+  border-radius: 20px;
+}
+
+#content {
+  display: inline-block;
+  margin-left: 262px;
+  width: 516px;
+}
+
+#title {
+  font-family: $primaryFont;
+  font-size: 48px;
+  float: left;
+  margin-top: 328px;
+
+}
+
+#info {
+  font-family: $primaryFont;
+  font-size: 24px;
+  float: right;
+  line-height: 35px;
+}
+
+#projectsTitle {
+  font-family: $primaryFont;
+  font-size: 44px;
+  text-align: center;
+  margin-top: 328px;
+
+}
+
+.contentProjects {
+  display: flex;
+  float: left;
+  width: 1160px;
+}
+
+.imgProjets {
+  width: 363px;
+}
+
+.projetsCard h4 {
+  font-family: $primaryFont;
+  font-size: 36px;
+  text-align: center;
+  width: 320px;
+}
+
+.projetsCard + .projetsCard {
+  margin-left: 20px;
+}
+
+.infoContact {
+  color: black;
+  font-family: $primaryFont;
+  font-size: 36px;
+  float: left;
+  margin-left: 320px;
+}
+
+#contact {
+  margin-top: 60px;
+}
+
+#contact a {
+  color: black;
+  font-family: $primaryFont;
+  font-size: 36px;
+  float: left;
+  margin-left: 60px;
+  margin-top: 34px;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  color: $colorGray;
+}

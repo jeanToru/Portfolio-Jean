@@ -1,0 +1,44 @@
+#formTitle {
+  font-family: $primaryFont;
+  font-size: 36px;
+  margin: 0 auto;
+  padding: 22px;
+}
+
+
+.formContent {
+  font-family: $primaryFont;
+  font-size: 24px;
+  padding: 22px;
+}
+
+.formContent label {
+  margin-bottom: 32px;
+}
+
+.formContent .formu {
+  border: 1px solid black;
+  width: 260px;
+  height: 48px;
+}
+
+.formu {
+  display: block;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#send {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-family: $primaryFont;
+  font-size: 24px;
+  margin-top: 22px;
+  padding: 12px;
+}
+
+#send:hover {
+  color: $colorHover;
+}
